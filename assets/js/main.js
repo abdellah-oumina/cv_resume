@@ -236,7 +236,7 @@ $(document).on('ready', function () {
 var $typed = $("#typed");
 if ($typed.length > 0) {
     $typed.typed({
-        strings: ["Embedded Systems Engineering", "Computer Vision Engineering", "Mobile Apps Development"],
+        strings: ["Automotive Diagnostic Engineer", "Software Development (Python)"],
         stringsElement: null,
         typeSpeed: 50,
         startDelay: 100,
