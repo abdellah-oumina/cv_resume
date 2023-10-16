@@ -243,7 +243,7 @@ if ($typed.length > 0) {
         backSpeed: 50,
         backDelay: 300,
         loop: true,
-        loopCount: 550,
+        loopCount: 300,
         showCursor: true,
         cursorChar: "|",
         attr: null,
@@ -329,7 +329,7 @@ function mobileMenuHide() {
         $('.menu-toggle').removeClass('open');
         setTimeout(function () {
             siteHeader.addClass('animate');
-        }, 500);
+        }, 200);
     } else {
         siteHeader.removeClass('animate');
     }
@@ -356,13 +356,13 @@ $('.slider').on("click", function () {
 
     var mode = localStorage.getItem("switchState")
     if (mode == "light") {
-
+        
         console.log("light ON")
 
         document.getElementById('theme-style').href = 'assets/css/main.css'
 
         document.getElementById('udemySrc').src = 'assets/img/udemy-light.png'
-        document.getElementById('udemySrc1').src = 'assets/img/udemy-light.png'
+       
         document.getElementById('udemySrc2').src = 'assets/img/udemy-light.png'
 
         localStorage.setItem("switchState", "blue");
@@ -372,7 +372,7 @@ $('.slider').on("click", function () {
         console.log("DARK ON")
         document.getElementById('theme-style').href = 'assets/css/blue.css'
         document.getElementById('udemySrc').src = 'assets/img/udemy-dark.png'
-        document.getElementById('udemySrc1').src = 'assets/img/udemy-dark.png'
+       
         document.getElementById('udemySrc2').src = 'assets/img/udemy-dark.png'
         localStorage.setItem("switchState", "light");
     }

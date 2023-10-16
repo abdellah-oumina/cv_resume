@@ -540,9 +540,11 @@ input[type='submit']:focus {
 }
 
 .header-buttons {
-  margin-top: 50px;
+  margin-bottom:  20px;
 }
-
+.switch-buttons {
+  margin-bottom: 50px;
+}
 .header-buttons .btn-primary {
   background-color: transparent;
   color: var(--mainText);
@@ -617,7 +619,7 @@ btn btn-primary .header .copyrights {
   height: 100%;
   width: 100%;
   border-radius: 30px;
-  padding: 60px;
+  padding: 5px;
   overflow: auto;
 }
 
@@ -1244,12 +1246,12 @@ input[type='text'],
   vertical-align: top;
 }
 .capgemini {
-  width: 30%;
-  display: table-cell;
-  padding-right: 25px;
-  min-height: 100%;
-  text-align: left;
-  vertical-align: top;
+  
+ 
+
+  width: 120px;
+  margin-left: 55%;
+
 }
 
 .timeline-second-style .right-part {
@@ -2409,8 +2411,8 @@ blockquote {
   }
 
   .header-photo {
-    max-width: 130px;
-    margin-bottom: 25px;
+    max-width: 100px;
+    margin-bottom:10px;
   }
 
   .mobile-menu-hide {
