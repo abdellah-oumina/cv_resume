@@ -1243,6 +1243,14 @@ input[type='text'],
   text-align: right;
   vertical-align: top;
 }
+.capgemini {
+  width: 30%;
+  display: table-cell;
+  padding-right: 25px;
+  min-height: 100%;
+  text-align: left;
+  vertical-align: top;
+}
 
 .timeline-second-style .right-part {
   width: 70%;
@@ -1302,8 +1310,8 @@ input[type='text'],
 
 .timeline-second-style .item-period {
   color: var(--secondaryText);
-  margin: 3px 0;
-  font-size: 14px;
+  margin: 1px 0;
+  font-size: 12px;
   line-height: 1.4em;
 }
 
@@ -1391,11 +1399,11 @@ input[type='text'],
 }
 
 .skills-second-style .skill-container.skill-1 .skill-percentage {
-  width: 75%;
+  width: 80%;
 }
 
 .skills-second-style .skill-container.skill-2 .skill-percentage {
-  width: 75%;
+  width: 70%;
 }
 
 .skills-second-style .skill-container.skill-3 .skill-percentage {
@@ -1462,6 +1470,7 @@ input[type='text'],
 
 .knowledges {
   list-style: none;
+  font-weight: 600;
 }
 
 .knowledges li {
