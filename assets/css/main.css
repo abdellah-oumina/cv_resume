@@ -9,7 +9,8 @@
   --mainText: black;
   --secondaryText: #4b5156;
   --certiLogo: rgba(195, 194, 255, 0.527);
-  --themeObject: #04b4e0;
+
+  --themeObject: #0099cc;
 
   --themeDotBorder: #f0ead6;
 
@@ -1238,24 +1239,17 @@ input[type='text'],
 }
 
 .timeline-second-style .left-part {
-  width: 30%;
+  width: 15%;
   display: table-cell;
-  padding-right: 25px;
+  padding-right: 30px;
   min-height: 100%;
-  text-align: right;
+  text-align: left;
   vertical-align: top;
 }
-.capgemini {
-  
- 
 
-  width: 120px;
-  margin-left: 55%;
-
-}
 
 .timeline-second-style .right-part {
-  width: 70%;
+  width: 85%;
   display: table-cell;
   padding-left: 25px;
   padding-right: 15px;
@@ -1270,7 +1264,7 @@ input[type='text'],
 .timeline-second-style .divider {
   position: absolute;
   top: 0;
-  left: 30%;
+  left: 15%;
   bottom: 0;
   width: 1px;
   background-color: var(--secondaryText);
@@ -1506,6 +1500,16 @@ input[type='text'],
   height: 100%;
   background-color: var(--certiLogo);
   padding: 25px;
+  vertical-align: middle;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.cap {
+  display: table-cell;
+  width: 130px;
+  height: 100%;
+
+  
   vertical-align: middle;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -3187,6 +3191,7 @@ blockquote {
 }
 
 .slider:before {
+  
   position: absolute;
   content: '';
   height: 26px;
