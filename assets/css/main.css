@@ -1249,10 +1249,11 @@ input[type='text'],
 
 
 .timeline-second-style .right-part {
+  text-align: justify;
   width: 85%;
   display: table-cell;
   padding-left: 25px;
-  padding-right: 15px;
+  padding-right: 80px;
   vertical-align: top;
 }
 
@@ -1340,9 +1341,13 @@ input[type='text'],
 .timeline-second-style .item-logo img {
   max-height: 40px;
 }
-
+.justi{
+  text-align: justify;
+  border: #0099cc;
+}
 .skills-info.skills-second-style {
   margin-bottom: 30px;
+  padding-right: 10%;
 }
 
 .skills-info.skills-second-style h4 {
