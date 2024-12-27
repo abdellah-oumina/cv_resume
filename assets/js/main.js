@@ -238,7 +238,8 @@ $(document).on('ready', function () {
 var $typed = $("#typed");
 if ($typed.length > 0) {
     $typed.typed({
-        strings: ["Automotive Diagnostic Engineering", "Software Development"],
+        // "Python / Javascript Development"
+        strings: ["Automotive Diagnostic Engineering"],
         stringsElement: null,
         typeSpeed: 50,
         startDelay: 100,
