@@ -44,11 +44,11 @@
 .owl-carousel .owl-dot {
   cursor: pointer;
   cursor: hand;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-select: auto;
+  -khtml-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 .owl-carousel.owl-loaded {
   display: block;
@@ -64,10 +64,10 @@
   visibility: hidden;
 }
 .owl-carousel.owl-drag .owl-item {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
 }
 .owl-carousel.owl-grab {
   cursor: move;
