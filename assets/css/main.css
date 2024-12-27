@@ -1953,18 +1953,20 @@ input[type='text'],
   height: 40px;
   width: 40px;
   text-align: center;
-  color: #b5b5b5;
-  background-color: var(--secondaryText);
+  font-weight: 500;
+  color: #ffffff;
+  background-color:#192734;
 }
 
 .ajax-page-nav > div.nav-item a:hover {
-  background-color: var(--themeObject);
-  color: var(--mainText);
+  background-color: #192734;
+  color: #ffffff;
 }
 
 .ajax-page-nav > div.nav-item a i {
   line-height: 40px;
-  font-size: 22px;
+  font-size: 30px;
+  height: 10px;
 }
 
 .ajax-page-title {
