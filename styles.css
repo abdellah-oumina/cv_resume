@@ -1,0 +1,91 @@
+/* Custom styles */
+.section {
+    @apply mb-8 p-6;
+}
+
+.section-title {
+    @apply text-2xl font-bold mb-4 text-gray-800 dark:text-white;
+}
+
+.personal-info {
+    @apply flex flex-col md:flex-row items-center md:items-start gap-6;
+}
+
+.profile-image {
+    @apply w-48 h-48 rounded-full object-cover;
+}
+
+.info-details {
+    @apply space-y-2 text-gray-600 dark:text-gray-300;
+}
+
+.experience-item {
+    @apply mb-6 last:mb-0;
+}
+
+.experience-title {
+    @apply text-xl font-semibold text-gray-800 dark:text-white;
+}
+
+.experience-company {
+    @apply text-blue-600 dark:text-blue-400 font-medium;
+}
+
+.experience-duration {
+    @apply text-gray-500 dark:text-gray-400 text-sm;
+}
+
+.skills-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4;
+}
+
+.skill-category {
+    @apply bg-gray-50 dark:bg-gray-700 p-4 rounded-lg;
+}
+
+.skill-title {
+    @apply text-lg font-semibold mb-2 text-gray-800 dark:text-white;
+}
+
+.skill-list {
+    @apply space-y-1 text-gray-600 dark:text-gray-300;
+}
+
+.project-card {
+    @apply bg-white dark:bg-gray-700 rounded-lg shadow-md p-4;
+}
+
+.project-title {
+    @apply text-lg font-semibold mb-2 text-gray-800 dark:text-white;
+}
+
+.project-description {
+    @apply text-gray-600 dark:text-gray-300 mb-4;
+}
+
+.project-tech {
+    @apply flex flex-wrap gap-2;
+}
+
+.tech-tag {
+    @apply bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100 px-2 py-1 rounded text-sm;
+}
+
+/* Transitions */
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 200ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 200ms ease-in;
+}
