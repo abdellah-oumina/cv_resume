@@ -603,11 +603,15 @@ document.querySelectorAll('.nav-btn').forEach(btn => {
         changeSlide(direction, e);
     });
 });
+
 changeSlide(1)
 document.querySelector('.gallery-container').addEventListener('mouseenter', () => {
     clearInterval(slideInterval);
 });
 
+document.querySelector('.gallery-container').addEventListener('mouseleave', () => {
+    slideInterval = setInterval(() => changeSlide(1), 5000);
+});
 
 // Keyboard navigation
 document.addEventListener('keydown', (e) => {
