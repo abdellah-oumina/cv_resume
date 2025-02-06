@@ -1,0 +1,617 @@
+<div id="ajax-page" class="project-container animate-in">
+    <!-- Header -->
+    <header class="project-header fade-in">
+        <nav class="nav-bar">
+            <a id="ajax-page-close-button" href="#" class="close-btn pulse" aria-label="Close">
+                <i class="lnr lnr-cross"></i>
+            </a>
+        </nav>
+        <h1 class="slide-in">SpySim-Tracker</h1>
+        <p class="subtitle slide-in-delayed">Tracking and Analyzing Exchange Between DiagBox and SpyandSim</p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="project-content">
+        <!-- Overview -->
+        <section class="overview fade-in-up">
+            <div class="description">
+                <p>SpySim-Tracker is an Electron-based desktop application for tracking and analyzing Exchange  for unit tests. This tool provides a modern interface for monitoring and managing frames with real-time updates and detailed insights.</p>
+            </div>
+            <div class="technologies">
+                <span class="tech-tag bounce-in">JavaScript</span>
+                <span class="tech-tag bounce-in" style="animation-delay: 0.1s">HTML,CSS</span>
+                <span class="tech-tag bounce-in" style="animation-delay: 0.2s">Node.js</span>
+                <span class="tech-tag bounce-in" style="animation-delay: 0.3s">Electron v24.3.0</span>
+
+
+
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="gallery fade-in-up" style="animation-delay: 0.2s">
+            <div class="gallery-container">
+                <!-- Navigation Buttons -->
+                <button class="nav-btn prev glow-on-hover" onclick="changeSlide(-1)">❮</button>
+                <button class="nav-btn next glow-on-hover" onclick="changeSlide(1)">❯</button>
+
+                <!-- Slides -->
+                <div class="slides">
+                    <figure class="slide">
+                        <img src="assets/img/portfolio/spy-tracker (1).jpg" alt="Main Dashboard" loading="lazy">
+                        
+                    </figure>
+                    <figure class="slide">
+                        <img src="assets/img/portfolio/spy-tracker (2).jpg" alt="Analysis View" loading="lazy">
+                    
+                    </figure>
+                    <figure class="slide">
+                        <img src="assets/img/portfolio/spy-tracker (3).jpg" alt="Processing View" loading="lazy">
+                     
+                    </figure>
+                
+
+                </div>
+
+                <!-- Gallery Controls -->
+                <div class="gallery-dots"></div>
+                <div class="slide-counter"></div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features fade-in-up" style="animation-delay: 0.4s">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item scale-in">
+                    <h3>Real-time Process Monitoring</h3>
+                    <p>Live status indicator with LED visualization</p>
+                    <p>Automatic process detection and tracking</p>
+                    <p>Real-time updates of process status</p>
+                    <div class="feature-icon">⚡</div>
+                </div>
+                <div class="feature-item scale-in" style="animation-delay: 0.1s">
+                    <h3>Advanced Filtering System</h3>
+                    <p>Service-specific filters (RDBI-22, WDBI-2E, RC-31, IOCBI-2F, etc.)</p>
+                    <p>Text-based search functionality with debounce</p>
+                    <p>Multi-select filtering capabilities</p>
+                    <p>Prefix-based filtering system</p>
+                    <div class="feature-icon">🔍</div>
+                </div>
+                <div class="feature-item scale-in" style="animation-delay: 0.2s">
+                    <h3>Data Management</h3>
+                    <p>XML file parsing and analysis</p>
+                    <p>Clipboard integration for selected items</p>
+                    <p>Batch selection and copying functionality</p>
+                    <p>Real-time statistics updates</p>
+                    <div class="feature-icon">📊</div>
+                </div>
+                <div class="feature-item scale-in" style="animation-delay: 0.3s">
+                    <h3>User Interface Customization</h3>
+                    <p>Multiple theme options (Light, Dark, Blue, Golden, Neon variants)</p>
+                    <p>Theme persistence across sessions</p>
+                    <p>Responsive and modern design</p>
+                    <p>Custom theme icons for different modes</p>
+                    <div class="feature-icon">📈</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<style>
+:root {
+    --primary: #04b4e0;
+    --background: #111111;
+    --text: #ffffff;
+    --spacing: 2rem;
+    --radius: 8px;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes scaleIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.1); }
+    70% { transform: scale(0.9); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { 
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+/* Animation Classes */
+.animate-in { animation: fadeIn 0.6s ease-out; }
+.fade-in { animation: fadeIn 0.6s ease-out; }
+.slide-in { animation: slideIn 0.6s ease-out; }
+.scale-in { animation: scaleIn 0.6s ease-out both; }
+.bounce-in { animation: bounceIn 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55) both; }
+.fade-in-up { animation: fadeInUp 0.6s ease-out both; }
+
+/* Enhanced Layout */
+.project-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: var(--spacing);
+    color: var(--text);
+    background: var(--background);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) var(--background);
+}
+
+.project-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.project-container::-webkit-scrollbar-track {
+    background: var(--background);
+    border-radius: var(--radius);
+}
+
+.project-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    border-radius: var(--radius);
+    border: 2px solid var(--background);
+}
+
+.project-content {
+    padding-right: 1rem;
+}
+
+/* Enhanced Header */
+.project-header {
+    text-align: center;
+    margin-bottom: var(--spacing);
+}
+
+.project-header h1 {
+    color: var(--primary);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 10px rgba(4, 180, 224, 0.3);
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: var(--text);
+    opacity: 0.9;
+}
+
+.close-btn {
+    color: var(--primary);
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: var(--transition);
+    animation: pulse 2s infinite;
+}
+
+.close-btn:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+/* Enhanced Overview */
+.overview {
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    margin-bottom: var(--spacing);
+    transition: var(--transition);
+    border: 1px solid rgba(4, 180, 224, 0.1);
+}
+
+.overview:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(4, 180, 224, 0.1);
+}
+
+.description p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.tech-tag {
+    background: var(--primary);
+    color: var(--background);
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: var(--transition);
+    cursor: default;
+}
+
+.tech-tag:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(4, 180, 224, 0.3);
+}
+
+/* Enhanced Gallery */
+.slides figure:first-child {
+    display: block;
+    opacity: 1;
+    position: relative;
+}
+
+.gallery-container {
+    position: relative;
+    background: rgba(255, 255, 255, 0.05);
+    padding: var(--spacing);
+    border-radius: var(--radius);
+    margin-bottom: var(--spacing);
+    border: 1px solid rgba(4, 180, 224, 0.1);
+    min-height: 400px;
+}
+
+.slides {
+    position: relative;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+    height: 0;
+}
+
+.slide.active {
+    position: relative;
+    opacity: 1;
+    display: block;
+    height: auto;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+
+.slide:hover img {
+    transform: scale(1.02);
+}
+
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(4, 180, 224, 0.8);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: var(--transition);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.nav-btn:hover {
+    background: var(--primary);
+    transform: translateY(-50%) scale(1.1);
+    box-shadow: 0 0 20px rgba(4, 180, 224, 0.4);
+}
+
+.prev { left: 1rem; }
+.next { right: 1rem; }
+
+.gallery-dots {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.dot:hover {
+    background: rgba(4, 180, 224, 0.5);
+}
+
+.dot.active {
+    background: var(--primary);
+    transform: scale(1.2);
+}
+
+.slide-counter {
+    font-size: 0.85rem;
+}
+
+/* Enhanced Features */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing);
+}
+
+.features h2 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.feature-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    transition: var(--transition);
+    border: 1px solid rgba(4, 180, 224, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(4, 180, 224, 0.2);
+}
+
+.feature-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(4, 180, 224, 0.1));
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.feature-item:hover::before {
+    opacity: 1;
+}
+
+.feature-item h3 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .project-container {
+        padding: 1rem;
+    }
+
+    .project-header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .features h2 {
+        font-size: 1.3rem;
+    }
+    
+    .feature-item h3 {
+        font-size: 1rem;
+    }
+    
+    .nav-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Touch Device Enhancements */
+@media (hover: none) {
+    .nav-btn {
+        opacity: 1;
+        background: rgba(4, 180, 224, 0.9);
+    }
+
+    .feature-item:hover {
+        transform: none;
+    }
+}
+</style>
+
+<script>
+let currentSlide = 1;
+let touchStartX = 0;
+let touchEndX = 0;
+
+function initGallery() {
+    const slides = document.querySelectorAll('.slide');
+    const dotsContainer = document.querySelector('.gallery-dots');
+    
+    // Make first slide visible immediately
+    slides[0].style.display = 'block';
+    slides[0].classList.add('active');
+    slides[0].style.opacity = '1';
+    
+    slides.forEach((_, index) => {
+        const dot = document.createElement('span');
+        dot.className = 'dot' + (index === 0 ? ' active' : '');
+        dot.onclick = (e) => {
+            e.preventDefault();
+            showSlide(index + 1);
+        };
+        dotsContainer.appendChild(dot);
+    });
+    
+    // Set initial counter
+    document.querySelector('.slide-counter').textContent = `1 / ${slides.length}`;
+    
+    initTouchEvents();
+}
+
+function changeSlide(n, event) {
+    if (event) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+    showSlide(currentSlide + n);
+}
+
+function showSlide(n) {
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    const counter = document.querySelector('.slide-counter');
+    const container = document.querySelector('.project-container');
+    const scrollPos = container.scrollTop;
+    
+    if (n > slides.length) currentSlide = 1;
+    else if (n < 1) currentSlide = slides.length;
+    else currentSlide = n;
+
+    // Get height of current slide before changing
+    const currentHeight = slides[currentSlide - 1].offsetHeight;
+    
+    // Update slides with a single reflow
+    requestAnimationFrame(() => {
+        slides.forEach((slide, index) => {
+            if (index === currentSlide - 1) {
+                slide.style.display = 'block';
+                slide.style.height = currentHeight + 'px';
+                // Force reflow
+                slide.offsetHeight;
+                slide.classList.add('active');
+                slide.style.height = 'auto';
+            } else {
+                slide.classList.remove('active');
+                slide.style.display = 'none';
+                slide.style.height = '0';
+            }
+        });
+
+        // Update dots
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentSlide - 1);
+        });
+
+        // Update counter
+        counter.textContent = `${currentSlide} / ${slides.length}`;
+
+        // Restore scroll position
+        container.scrollTop = scrollPos;
+    });
+}
+
+function initTouchEvents() {
+    const gallery = document.querySelector('.gallery-container');
+    
+    gallery.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    gallery.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe(e);
+    }, { passive: true });
+}
+
+function handleSwipe(event) {
+    const swipeThreshold = 50;
+    const swipeLength = touchEndX - touchStartX;
+    
+    if (Math.abs(swipeLength) > swipeThreshold) {
+        if (swipeLength > 0) changeSlide(-1, event);
+        else changeSlide(1, event);
+    }
+}
+
+// Initialize gallery
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initGallery);
+} else {
+    initGallery();
+}
+
+// Prevent default behavior on navigation buttons
+document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const direction = btn.classList.contains('prev') ? -1 : 1;
+        changeSlide(direction, e);
+    });
+});
+changeSlide(1)
+document.querySelector('.gallery-container').addEventListener('mouseenter', () => {
+    clearInterval(slideInterval);
+});
+
+
+// Keyboard navigation
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowLeft') changeSlide(-1, e);
+    if (e.key === 'ArrowRight') changeSlide(1, e);
+});
+</script>
