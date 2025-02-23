@@ -133,7 +133,7 @@
     --text-color: #333;
     --background-color: #f8f9fa;
     --card-background: rgb(243, 243, 243);
-    --border-color: #ddd;
+    --border-color: #b5b4b4b1;
     --section-spacing: 1.5rem;
     --transition-speed: 0.3s;
     --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -149,7 +149,7 @@
     --text-color: #e5e7eb;
     --background-color: #111827;
     --card-background: #1f2937;
-    --border-color: #374151;
+    --border-color: #a5a5a5c3;
     --card-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 

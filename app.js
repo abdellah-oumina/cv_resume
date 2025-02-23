@@ -9,7 +9,7 @@ const resumeData = {
             "Phone": "+2126-5574-3571",
             "Location": "Casablanca - Morocco",
             "LinkedIn": "https://www.linkedin.com/in/abdellah-oumina",
-            "Summary":"I am a Software Diagnostic Automotive Engineer with over three years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
+            "Summary":"I am a Software Diagnostic Automotive Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
         },
         "Professional Experience": {
             "Current Position": {
@@ -202,7 +202,7 @@ const resumeData = {
             "Phone": "+2126-5574-3571",
             "Location": "Casablanca - Morocco",
             "LinkedIn": "https://www.linkedin.com/in/abdellah-oumina",
-            "Summary":"I am a Software Diagnostic Automotive Engineer with over three years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
+            "Summary":"I am a Software Diagnostic Automotive Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
         },
         "Professional Experience": {
             "Current Position": {
