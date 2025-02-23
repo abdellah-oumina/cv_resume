@@ -62,7 +62,7 @@ const resumeData = {
                 "Technology": ["Python"]
             },
             {
-                "Project Name": "Spy-Unit-Test",
+                "Project Name": "Spy-Tracker For Unit-Test",
                 "Project icon": "assets/Projects/Spy-Tracker/icon.png",
                 "Description": "Spy-Tracker For Unit-Test is a powerful application designed to monitor and track all frames between DIAGBOX and Spy&SIM. It captures and analyzes every request sent by DIAGBOX to the ECU, generating accurate responses automatically. By doing so, the application enhances the efficiency of unit testing, reduces errors in diagnostic responses, and significantly accelerates the validation process.",
                 "Screenshots": ["assets/Projects/Spy-Tracker/screenshot-1.png","assets/Projects/Spy-Tracker/screenshot-2.png","assets/Projects/Spy-Tracker/screenshot-3.png"],
