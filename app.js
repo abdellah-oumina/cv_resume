@@ -4,23 +4,23 @@ const resumeData = {
         "Personal Information": {
             "Name": "ABDELLAH OUMINA",
             "Image": "assets/my_picture.jpg",
-            "Title": "Software Diagnostic Automotive Engineer",
+            "Title": "Automotive Software Diagnostic Engineer",
             "Email": "abdellah.oumina@gmail.com",
             "Phone": "+2126-5574-3571",
             "Location": "Casablanca - Morocco",
             "LinkedIn": "https://www.linkedin.com/in/abdellah-oumina",
-            "Summary":"I am a Software Diagnostic Automotive Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
+            "Summary":"I am a Automotive Software Diagnostic Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
         },
         "Professional Experience": {
             "Current Position": {
-                "Title": "Software Diagnostic Automotive Engineer",
+                "Title": "Automotive Software Diagnostic Engineer | Python developer",
                 "Company": "Capgemini",
                 "Duration": "March 2022 – Present",
                 "Location": "Casablanca - Hybride, Morocco",
                 "Timeline": [
                     {
                         "Period": "March 2022 – Present",
-                        "Role": "Diagnostic Automotive Engineer",
+                        "Role": "Automotive Engineer",
                         "Responsibilities": [
                                 // Analysis
                                     "Analyzing and developing input data for automotive ECUs using the Diagbox diagnostic tool.",
@@ -197,23 +197,23 @@ const resumeData = {
         "Personal Information": {
             "Name": "ABDELLAH OUMINA",
             "Image": "assets/my_picture.jpg",
-            "Title": "Software Diagnostic Automotive Engineer",
+            "Title": "Automotive Software Diagnostic Engineer",
             "Email": "abdellah.oumina@gmail.com",
             "Phone": "+2126-5574-3571",
             "Location": "Casablanca - Morocco",
             "LinkedIn": "https://www.linkedin.com/in/abdellah-oumina",
-            "Summary":"I am a Software Diagnostic Automotive Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
+            "Summary":"I am a Automotive Software Diagnostic Engineer with over 3 years of experience in automotive systems and diagnostic tool development. My expertise lies in implementing ECU requirements for <b>STELLANTIS</b> vehicles (<b>DIAGBOX</b>). I specialize in automating repetitive tasks and optimizing workflows to enhance efficiency. By leveraging my technical skills, I have successfully developed tools that improve team productivity and reduce errors across both requirements analysis and development phases."
         },
         "Professional Experience": {
             "Current Position": {
-                "Title": "Software Diagnostic Automotive Engineer",
+                "Title": "Automotive Software Diagnostic Engineer | Python developer",
                 "Company": "Capgemini",
                 "Duration": "March 2022 – Present",
                 "Location": "Casablanca - Hybride, Morocco",
                 "Timeline": [
                     {
                         "Period": "March 2022 – Present",
-                        "Role": "Diagnostic Automotive Engineer",
+                        "Role": "Automotive Engineer",
                         "Responsibilities": [
                                 // Analysis
                                     "Analyzing and developing input data for automotive ECUs using the Diagbox diagnostic tool.",
