@@ -78,7 +78,7 @@ const resumeData = {
             {
                 "Project Name": "FL-Maker",
                 "Project icon": "assets/Projects/FL-Maker/icon.png",
-                "Description": "FL-MAKER serves as a 'Fiche de Livraison' generator, tracking and documenting all modifications made to files within D2Center. It automatically monitors projects and files, providing a detailed report of every addition, deletion, or modification. For each change, it records the file name, type of modification,  revision number, and a description of the update, ensuring clear and precise version tracking. This tool enhances project management by maintaining a structured and transparent history of all modifications.",
+                "Description": "FL-MAKER serves as a #Fiche de Livraison# generator, tracking and documenting all modifications made to files within D2Center. It automatically monitors projects and files, providing a detailed report of every addition, deletion, or modification. For each change, it records the file name, type of modification,  revision number, and a description of the update, ensuring clear and precise version tracking. This tool enhances project management by maintaining a structured and transparent history of all modifications.",
                 "Screenshots": ["assets/Projects/FL-Maker/screenshot-1.png","assets/Projects/FL-Maker/screenshot-2.png","assets/Projects/FL-Maker/screenshot-3.png","assets/Projects/FL-Maker/screenshot-4.png","assets/Projects/FL-Maker/screenshot-5.png","assets/Projects/FL-Maker/screenshot-6.png"],
                 "Technology": ["python"]
             }, 
@@ -147,7 +147,7 @@ const resumeData = {
         ],
         "Skills": {
 
-            "Automotive Tools": [
+            "Automotive": [
                 "DOCINFO",
                 "Corvet",
                 "D2Center",
@@ -155,7 +155,9 @@ const resumeData = {
                 "DOTI",
                 "DIAGBOX",
                 "SPY&SIM",
-                "Candela"
+                "Candela",
+                "Bus CAN",
+                "UDS Protocol"
             ],
            
             "Coding": [
@@ -172,7 +174,14 @@ const resumeData = {
                 "JSON",
             ],
            
-            "Other Tools": [
+
+                        "Knowledge": [
+                            "Automation Tasks",
+                            "Problems Solving",
+                            "Automotive Diagnostic",
+                            "Data Analysis/Visualization"
+                        ],
+                                    "Other Tools": [
                 "TortoiseSVN",
                 "GIT",
                 "Selenium",
@@ -180,17 +189,7 @@ const resumeData = {
                 'VS code',
 
                         ],
-                        "Knowledge": [
-                            "Automation Tasks",
-                            "Problems Solving",
-                            "Automotive Diagnostic",
-                            "Data Analysis/Visualization"
-                        ],
-            "Protocols": [
-                "Bus LIN",
-                "Bus CAN",
-                "KWP2000"
-            ]
+        
         }
     },
     fr: {
@@ -482,34 +481,38 @@ function renderExperience(experience) {
 }
 
 function renderProjects(projects) {
-    slideCount = Math.ceil(projects.length / 3);
     return `
-        <div class="projects-carousel">
-            <button class="carousel-button prev" onclick="moveSlide(-1)" aria-label="Previous projects">
+        <div class="projects-carousel-wrapper">
+            <button class="scroll-button left" onclick="scrollProjects(-1)" aria-label="Scroll left">
                 <i class="fas fa-chevron-left"></i>
             </button>
-            <button class="carousel-button next" onclick="moveSlide(1)" aria-label="Next projects">
-                <i class="fas fa-chevron-right"></i>
-            </button>
-            <div class="projects-track" style="transform: translateX(-${currentSlide * 100}%)">
-                ${projects.map((project, index) => `
-                    <div class="project-slide">
-                        <div class="project-card" onclick="showProjectDetails(${JSON.stringify(project).replace(/"/g, '&quot;')})">
-                                <img src="${project['Project icon']}" alt="${project['Project Name']} icon" class="project-icon">
-                                <h3 class="project-title">${project['Project Name']}</h3>
-                        </div>
+
+            <div class="projects-scroll-container" id="projectsScroll">
+                ${projects.map(project => `
+                    <div class="project-card" onclick='showProjectDetails(${JSON.stringify(project).replace(/"/g, '&quot;')})'>
+                        <img src="${project['Project icon']}" alt="${project['Project Name']} icon" class="project-icon" />
+                        <h3 class="project-title">${project['Project Name']}</h3>
                     </div>
                 `).join('')}
             </div>
-            <div class="carousel-dots">
-                ${Array(slideCount).fill().map((_, i) => `
-                    <button class="carousel-dot ${i === currentSlide ? 'active' : ''}" 
-                            onclick="goToSlide(${i})"
-                            aria-label="Go to slide ${i + 1}"></button>
-                `).join('')}
-            </div>
-        </div>`;
+
+            <button class="scroll-button right" onclick="scrollProjects(1)" aria-label="Scroll right">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    `;
 }
+
+function scrollProjects(direction) {
+    const container = document.getElementById('projectsScroll');
+    const scrollAmount = container.offsetWidth * 0.8; // scroll by 80% of visible width
+    container.scrollBy({
+        left: direction * scrollAmount,
+        behavior: 'smooth'
+    });
+}
+
+
 
 function renderSkills(skills) {
     const categoryIcons = {
@@ -525,14 +528,12 @@ function renderSkills(skills) {
             ${Object.entries(skills).map(([category, items]) => `
                 <div class="skill-category">
                     <div class="skill-header">
-                        <i class="fas ${categoryIcons[category] || 'fa-star'}"></i>
+                        <i class="fas ${categoryIcons[category] || 'fa-car'}"></i>
                         <h3>${category}</h3>
                     </div>
                     <div class="skill-tags">
                         ${items.map(item => `
-                            <span class="skill-tag">
-                                ${item}
-                            </span>
+                            <span class="skill-tag">${item}</span>
                         `).join('')}
                     </div>
                 </div>
@@ -540,6 +541,7 @@ function renderSkills(skills) {
         </div>
     `;
 }
+
 
 function renderEducation(education) {
     return education.map(edu => `
@@ -633,14 +635,16 @@ function showProjectDetails(project) {
     modalOverlay.innerHTML = `
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">${project['Project Name']}</h2>
+                <img src="${project['Project icon']}" alt="${project['Project Name']} icon" class="project-icon" /><h2 class="modal-title">${project['Project Name']}</h2>
                 <button class="modal-close" onclick="closeModal(this)" aria-label="Close modal">&times;</button>
             </div>
-            <div class="modal-body">
-                <p>${project.Description}</p>
-                <div class="project-tech">
+            <div class="project-tech">
                     ${project.Technology.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                </div>
+            </div>
+            <div class="modal-body">
+                <p class="description-card">${project.Description}</p>
+           
+         
                 ${currentImages.length > 0 ? `
                     <div class="project-gallery">
                         ${currentImages.map((img, index) => `
