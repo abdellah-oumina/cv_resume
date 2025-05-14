@@ -40,7 +40,7 @@ const resumeData = {
                         "Role": "Key Projects & Achievements",
                         "Responsibilities": [
                                 // Analysis
-                                    "Enhance ECU diagnostic system using My Tools (Explore them in the project section)",
+                                    "Enhance DIAGBOX/WITECH system using My Tools (Explore them in the project section)",
                                     "Reduce analysis, development, and validation time by 40%",
                                     "Improve team efficiency by 20%"
                                                                        ]
@@ -232,7 +232,7 @@ const resumeData = {
                         "Role": "Key Projects & Achievements",
                         "Responsibilities": [
                                 // Analysis
-                                    "Enhance ECU diagnostic system using My Tools (Explore them in the project section)",
+                                    "Enhance DIAGBOX/WITECH using My Tools (Explore them in the project section)",
                                     "Reduce analysis, development, and validation time by 40%",
                                     "Improve team efficiency by 20%"
                                                                        ]
