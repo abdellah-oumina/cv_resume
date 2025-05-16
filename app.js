@@ -44,6 +44,7 @@ const resumeData = {
     "Participating in meetings to align with upstream and downstream project stakeholders.",
     "Using PLM tool for issue tracking and documentation management."
 ]
+
                               
                     },
                     {
