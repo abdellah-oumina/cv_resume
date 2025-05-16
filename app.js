@@ -452,7 +452,7 @@ function renderPersonalInfo(info) {
     color:white;
     background-color: var(--accent-color);
 
-    ">Hi 🖐🏻 </h4>
+    ">Hi 🖐🏻</h4>
                     <h1>${info.Name}</h1>
                     <h2>${info.Title}</h2>
                 </div>
