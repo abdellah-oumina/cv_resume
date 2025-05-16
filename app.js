@@ -213,18 +213,30 @@ const resumeData = {
                     {
                         "Period": "March 2022 – Present",
                         "Role": "Automotive Engineer",
-                        "Responsibilities": [
-                                // Analysis
-                                    "Analyzing and developing input data for automotive ECUs using the Diagbox diagnostic tool.",
-                                    "Writing and evolving the scope statement for automotive ECUs.",
-                                    "Developing diagnostic specifications for automotive ECUs and various functionalities of the automotive diagnostic tool using the D2Center tool.",
-                                    "Debugging ECU tool logs to identify the root causes of issues and ensure effective troubleshooting.",
-                                    "Writing test scripts and validating developed functionalities (Unit Tests) using a car simulator, analyzing results to ensure accurate performance and reliability.",
-                                    "Collaborating with clients in technical meetings to address and resolve input data issues effectively.",
-                                    "Managing, analyzing, and correcting bugs in various projects reported by customers via Jira (Atlassian).",
-                                    "Mentoring team members by providing technical guidance to overcome challenges and ensure the continuity of development tasks.",
+"Responsibilities": [ 
+    // Analysis
+    "Analyzing and developing input data for automotive ECUs using the Diagbox diagnostic tool.",
+    "Verifying completeness and consistency of input data (DTC Matrix, DOTE, ODX messaging, and PAG documents).",
+    "Defining and documenting the scope and requirements based on client specifications.",
+    // Development
+    "Developing diagnostic communication (DSD) for ECU interaction.",
+    "Creating graphical diagnostic components (GPC/DiagObjects) for actuator tests handling, control routines, telecoding and measurement parameters, etc.",
+    "Designing and implementing flowcharts to define diagnostic procedures and user interactions.",
+    
+    // Testing
+    "Performing unit testing using SPY&SIM simulator with request/response frame scripts  (using my tool: iTraceTool).",
+    
+    // Validation & Maintenance
+    "Handling JIRA tickets related to anomalies and validation feedback.",
+    "Conducting root cause analysis using RTF, TU, CAN, and encrypted trace files (using my tool: iTraceTool).",
+    "Collaborating with component designers and cross-functional teams to resolve issues and improve diagnostic quality.",
+    
+    // Project Coordination
+    "Planning project milestones and managing task distribution within the team.",
+    "Participating in meetings to align with upstream and downstream project stakeholders.",
+    "Using PLM tool for issue tracking and documentation management."
+]
 
-                                                                       ]
                               
                     },
                     {
