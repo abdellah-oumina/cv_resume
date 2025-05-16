@@ -442,6 +442,17 @@ function renderPersonalInfo(info) {
             <div class="profile-section">
                 <img src="${info.Image}" alt="Profile Picture" class="profile-image">
                 <div class="name-title">
+                <h4 style="display: inline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding:0px 2px 0px 8px;
+    font-weight: bold;
+    color:white;
+    background-color: var(--accent-color);
+
+    ">Hi 🖐🏻 </h4>
                     <h1>${info.Name}</h1>
                     <h2>${info.Title}</h2>
                 </div>
