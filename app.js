@@ -23,20 +23,20 @@ const resumeData = {
                         "Role": "Automotive Engineer",
                         "Responsibilities": [ 
     // Analysis
-    "Analyzing and developing input data for automotive ECUs using the Diagbox diagnostic tool.",
-    "Verifying completeness and consistency of input data (DTC Matrix, DOTE, ODX messaging, and PAG documents).",
+    "Analyzing and developing input data for automotive ECUs using the Diagbox & Witech diagnostic tool.",
+    "Verifying completeness and consistency of input data (DTC Matrix, DOTE, ODX messaging, and Plan Aftersales Guide).",
     "Defining and documenting the scope and requirements based on client specifications.",
     // Development
-    "Developing diagnostic communication (DSD) for ECU interaction.",
-    "Creating graphical diagnostic components (GPC/DiagObjects) for actuator tests handling, control routines, telecoding and measurement parameters, etc.",
-    "Designing and implementing flowcharts to define diagnostic procedures and user interactions.",
+    "Developing diagnostic communication messaging (DSD) for ECU interaction.",
+    "Developing graphical diagnostic components (GPC/DiagObjects) for actuator tests handling, control routines, telecoding and measurement parameters, etc.",
+    "Designing and Developing Flowcharts to define diagnostic procedures and user interactions.",
     
     // Testing
-    "Performing unit testing using SPY&SIM simulator with request/response frame scripts  (using my tool: iTraceTool).",
+    "Performing unit testing using SPY&SIM simulator with request/response frame scripts.",
     
     // Validation & Maintenance
     "Handling JIRA tickets related to anomalies and validation feedback.",
-    "Conducting root cause analysis using RTF, TU, CAN, and encrypted trace files (using my tool: iTraceTool).",
+    "Conducting root cause analysis using RTF, TU, CAN, and encrypted trace files.",
     "Collaborating with component designers and cross-functional teams to resolve issues and improve diagnostic quality.",
     
     // Project Coordination
@@ -52,7 +52,7 @@ const resumeData = {
                         "Role": "Key Projects & Achievements",
                         "Responsibilities": [
                                 // Analysis
-                                    "Enhance DIAGBOX/WITECH system using My Tools (Explore them in the project section)",
+                                    "Enhance DIAGBOX & WITECH system using My Tools (Explore them in the project section)",
                                     "Reduce analysis, development, and validation time by 40%",
                                     "Improve team efficiency by 20%"
                                                                        ]

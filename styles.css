@@ -1192,9 +1192,10 @@ body.dark {
 }
 
 .timeline-responsibilities li::before {
-    content: "•";
+    content: "✦";
     position: absolute;
     left: 0;
+    font-family: "FontAwesome";
     color: var(--accent-color);
 }
 .skills-container {
