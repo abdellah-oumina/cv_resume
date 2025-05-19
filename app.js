@@ -23,7 +23,7 @@ const resumeData = {
                         "Role": "Automotive Engineer",
                         "Responsibilities": [ 
     // Analysis
-    "Analyzing and developing input data for automotive ECUs using the Diagbox & Witech diagnostic tool.",
+    "Analyzing and developing input data for automotive ECUs for the Diagbox & Witech diagnostic tool.",
     "Verifying completeness and consistency of input data (DTC Matrix, DOTE, ODX messaging, and Plan Aftersales Guide).",
     "Defining and documenting the scope and requirements based on client specifications.",
     // Development
