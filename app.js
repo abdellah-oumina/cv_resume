@@ -40,7 +40,7 @@ const resumeData = {
     "Collaborating with component designers and cross-functional teams to resolve issues and improve diagnostic quality.",
     
     // Project Coordination
-    "Planning project milestones and managing task distribution within the team.",
+    //"Planning project milestones and managing task distribution within the team.",
     "Participating in meetings to align with upstream and downstream project stakeholders.",
     "Using PLM tool for issue tracking and documentation management."
 ]
