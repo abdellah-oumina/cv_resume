@@ -27,8 +27,8 @@ const resumeData = {
     "Verifying completeness and consistency of input data (DTC Matrix, DOTE, ODX messaging, and Plan Aftersales Guide).",
     "Defining and documenting the scope and requirements based on client specifications.",
     // Development
-    "Developing diagnostic communication messaging (DSD) for ECU interaction.",
-    "Developing graphical diagnostic components (GPC/DiagObjects) for actuator tests handling, control routines, telecoding and measurement parameters, etc.",
+    "Developing diagnostic communication components EcuServices (DSD) for ECU interaction.",
+    "Developing graphical diagnostic components DiagObjects (GPC) for actuator tests handling, control routines, telecoding and measurement parameters, etc.",
     "Designing and Developing Flowcharts to define diagnostic procedures and user interactions.",
     
     // Testing
