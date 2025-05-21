@@ -69,7 +69,7 @@ const resumeData = {
             {
                 "Project Name": "iTraceTool",
                 "Project icon": "assets/Projects/iTraceTool/icon.png",
-                "Description": "iTrace-Tool is a Python-based application that interprets and visualizes encrypted trace logs from DIAGBOX diagnostic sessions. It provides an intuitive interface for analyzing complex diagnostic data, streamlining troubleshooting and performance evaluation",
+                "Description": "iTrace-Tool is a Python-based application that interprets and visualizes encrypted trace logs from DIAGBOX diagnostic sessions. It provides an intuitive interface for analyzing complex diagnostic data, helps identify issues, generate test scripts, track data and flowcharts and provides key vehicle info like VIN, architecture...",
                 "Screenshots": ["assets/Projects/iTraceTool/screenshot-1.png","assets/Projects/iTraceTool/screenshot-2.png","assets/Projects/iTraceTool/screenshot-3.png","assets/Projects/iTraceTool/screenshot-4.png","assets/Projects/iTraceTool/screenshot-5.png","assets/Projects/iTraceTool/screenshot-6.png","assets/Projects/iTraceTool/screenshot-7.png","assets/Projects/iTraceTool/screenshot-8.png","assets/Projects/iTraceTool/screenshot-9.png","assets/Projects/iTraceTool/screenshot-10.png","assets/Projects/iTraceTool/screenshot-11.png","assets/Projects/iTraceTool/screenshot-12.png","assets/Projects/iTraceTool/screenshot-13.png","assets/Projects/iTraceTool/screenshot-14.png"],
                 "Technology": ["Python"]
             },
